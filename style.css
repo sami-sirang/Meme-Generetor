@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+}
+.main-container{
+    width:100%;
+    background-color: #1e212b;
+}
+.heading{
+    padding:1% 0px 2% 2%;
+}
+h1{
+    color:#ffc800
+}
+.meme-container{
+ 
+    border:1px solid #ffc800;
+    margin-left: 5%;
+    border-radius:5px;
+    scale:0.9;
+    overflow: hidden;
+}
+.main-container img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.nextBtn{
+    margin-left: 5%;
+margin-top: 3%; 
+padding:8px 29px;
+background-color: #ffc800;
+color:#1e212b;
+background-origin: 2px;
+border-radius: 22px;
+border:0;
+outline:0;
+cursor: pointer;
+font-weight: bold;
+transition: all 0.6s;
+margin-bottom: 4%;
+}
+.nextBtn:hover{
+    background: none;
+    border:1px solid #ffc800;
+    color:#ffc800;
+}
